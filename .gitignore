@@ -5,3 +5,4 @@ nohup.out
 .bash*
 *.jar
 usercache.json
+.gitconfig
