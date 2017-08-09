@@ -1,0 +1,14 @@
+mkdir minemap
+chown mineapp:mineapp minemap/
+yum install -y python-imaging python-pillow-devel python-devel numpy
+yum install gcc
+cd Minecraft-Overviewer/
+python setup.py build
+chmod 700 map.sh
+chown -R mineapp:mineapp minemap/
+cd Minecraft-Overviewer/
+python setup.py install
+sudo yum install epel-release
+sudo yum install nginx
+sudo systemctl start nginx
+sudo systemctl enable nginx

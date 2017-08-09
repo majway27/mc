@@ -4,3 +4,4 @@ nohup.out
 .oracle_jre_usage/
 .bash*
 *.jar
+usercache.json

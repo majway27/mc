@@ -1,0 +1,2 @@
+0 2 * * * /bin/bash /opt/mineapp/backup.sh
+*/3 * * * * /bin/bash /opt/minemap/map.sh
